@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>require.js</title>
+		<style type="text/css"></style>
+		<!-- require.js默认的文件后缀名是js，所以可以把main.js简写成main -->
+		<!-- 真正常见的情况是，主模块依赖于其他模块，这时就要使用AMD规范定义的的require()函数。 -->
+		<script type="text/javascript"  src="js/require.js" data-main='js/app' defer async="true"></script>
+		<script type="text/javascript" src="js/lib/lastMonth.js"></script>
+	</head>
+	<body>
+		<div>hello world</div>
+	</body>
+</html>
